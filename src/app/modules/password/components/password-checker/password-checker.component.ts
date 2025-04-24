@@ -6,6 +6,7 @@ import {PasswordRule} from "../../rules/password-rule.interface";
 @Component({
   selector: 'app-password-checker',
   templateUrl: './password-checker.component.html',
+  styleUrls: ['./password-checker.component.scss']
 })
 export class PasswordCheckerComponent implements OnInit {
   password = new FormControl('');
